@@ -1,17 +1,12 @@
 import React, { memo } from 'react';
-// import superagent from 'superagent';
-// import puppeteer from 'puppeteer';
-// import axios from 'axios';
-// import Crowller from '../utils/crowller';
-// import Analyzer from '../utils/analyzer';
-// import { infoPath } from '../utils/default'
+import Inputs from './components/Inputs'
 
 interface Props {}
 
 function Index(props: Props) {
   return (
     <div>
-      home
+      <Inputs />
     </div>
   )
 }
