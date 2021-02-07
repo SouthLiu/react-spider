@@ -1,12 +1,14 @@
 import React, { memo } from 'react';
-import Inputs from './components/Inputs'
+import Top from './components/Top';
+import Description from './components/Description';
 
 interface Props {}
 
 function Index(props: Props) {
   return (
     <div>
-      <Inputs />
+      <Top />
+      <Description />
     </div>
   )
 }
